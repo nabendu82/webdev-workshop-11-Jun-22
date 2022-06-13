@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lobster&display=swap');
+
+p{
+    background-color: rgb(92, 68, 157);
+    color: #e4dada;
+
+}
+
+.box{
+    padding: 5px 10px;
+    /* margin: 10px; */
+    border: 5px solid gray;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.categories{
+    border: 2px solid black;
+}
+
+.categories h4{
+    text-align: center;   
+
+}
+.categories h4:hover{
+    background-color: pink;
+    color: darkgreen;
+}
+
+.categories li{
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted black;
+}
+.categories a{
+    text-decoration: none;
+}
+
+.form-gp{
+    display: block;
+    margin-bottom: 10px;
+}
+form{
+    font-family: 'Lobster', Times, serif;
+    font-size: 20px;
+    text-transform: normal;    
+}
+
+input{
+    padding: 5px;
+    width: 50%;
+}
+label {
+    margin-left: 10px;
+}
+
+button{
+    margin-left: 20px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: darkblue;
+    font-weight: 400; 
+    transition: color 0.15s ease;
+    
+}
+
+button:hover{
+    background-color: darkblue;
+    color: white;
+    opacity: 0.5;
+
+}
+
+
+
+
+
+
